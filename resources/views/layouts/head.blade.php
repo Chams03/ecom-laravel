@@ -2,16 +2,18 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ecom-Laravel</title>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
     <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 </head>
 <body>
-    <!-- Navigation -->
-    <x-navigation />
+    <div>
+        {{-- Navigation --}}
+        <x-navigation />
 
-    @yield('content')
-
+        {{-- Content --}}
+        @yield('content')
+    </div>
 </body>
 </html>
